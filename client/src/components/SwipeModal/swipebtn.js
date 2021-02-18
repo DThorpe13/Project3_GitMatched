@@ -28,7 +28,7 @@ const SwipeButton = () => {
     console.log(matches)
     console.log("THESE ARE THE MATCHES!!!!!!!!!MATHCES!!!!!!!!!!!")
   }
-  console.log("--------------------")
+  console.log("I CAN'T BELIEVE THIS SHIT JUST WORKED")
   console.log(matches);
   return (
     <div className="Pop">

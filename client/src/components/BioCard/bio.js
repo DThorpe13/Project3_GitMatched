@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Grid } from "react-mdl";
+import { Card, Button, CardTitle, CardText, CardActions, Grid } from "react-mdl";
 import Logo from "../../assets/dmlogo-vector.png";
 function BioCard(props) {
     console.log("/components/BioCard/bio.js/line:7: props...");

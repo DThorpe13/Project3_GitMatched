@@ -40,7 +40,7 @@ class CreateForm extends Component {
 
   handleFormSubmit = event => {
     event.preventDefault();
-    const retrieve = document.getElementsByClassName("formInputs");
+    const fuck = document.getElementsByClassName("formInputs");
     var companies = [
       {
         employerName: "Placeholder1!",
@@ -52,21 +52,23 @@ class CreateForm extends Component {
       }
     ]
     var user = {
-      userName: retrieve.username.value,
-      password: retrieve.password.value,
+      userName: fuck.username.value,
+      password: fuck.password.value,
       matches: companies
     }
     console.log(user);
+    // console.log(Date.now)
+    // Preventing the default behavior of the form submit (which is to refresh the page)
 
     API.createUser(user)
   };
 
   getAccount = (event) => {
     event.preventDefault();
-    const retrieve = document.getElementsByClassName("formInputs");
+    const fuck = document.getElementsByClassName("formInputs");
     var user = {
-      userName: retrieve.userName.value,
-      password: retrieve.password.value
+      userName: fuck.userName.value,
+      password: fuck.password.value
     }
     console.log(user);
 

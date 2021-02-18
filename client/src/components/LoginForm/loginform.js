@@ -26,20 +26,20 @@ class LoginForm extends Component {
   handleFormSubmit = event => {
     event.preventDefault();
     console.log("-----------------!-----------------")
-    const retrieve = document.getElementsByClassName("formInputs");
+    const fuck = document.getElementsByClassName("formInputs");
     var companies = [
       {
-        employerName: "Employer Name",
+        employerName: "FUCK FACE!",
         employerId: "1234"
       },
       {
-        employerName: "EmployeeName",
+        employerName: "SHIT FACE",
         employerId: "5678"
       }
     ]
     var user = {
-      userName: retrieve.username.value,
-      password: retrieve.password.value,
+      userName: fuck.username.value,
+      password: fuck.password.value,
       matches: companies
     }
     console.log(user);
@@ -51,10 +51,10 @@ class LoginForm extends Component {
 
   getAccount = (event) => {
     event.preventDefault();
-    const retrieve = document.getElementsByClassName("formInputs");
+    const fuck = document.getElementsByClassName("formInputs");
     var user = {
-      userName: retrieve.userName.value,
-      password: retrieve.password.value
+      userName: fuck.userName.value,
+      password: fuck.password.value
     }
     console.log(user);
 
